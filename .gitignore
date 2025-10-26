@@ -1,2 +1,16 @@
-# Project exclude paths
-/.gradle/
+# Gradle files
+.gradle/
+build/
+
+# Android build files
+app/build/
+
+# Local configuration files that may contain sensitive information
+local.properties
+
+# IDE files
+.idea/
+*.iml
+
+# Capacitor files
+node_modules/

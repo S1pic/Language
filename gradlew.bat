@@ -1,4 +1,4 @@
-'@echo off
+@echo off
 
 ::
 :: Copyright 2015 the original author or authors.
@@ -64,4 +64,3 @@ if not defined GRADLE_CMD (
 :: Run gradle
 ::
 "%%GRADLE_CMD%%" %%*
-'
