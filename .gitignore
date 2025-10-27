@@ -1,16 +1,21 @@
-# Gradle files
+# This file tells Git which files and folders to ignore.
+# We don't want to track temporary files or generated build files in our version control.
+
+# Ignore Gradle-related build files and folders
 .gradle/
 build/
 
-# Android build files
-app/build/
+# Ignore Android-specific build output
+android/app/build/
+android/build/
 
-# Local configuration files that may contain sensitive information
-local.properties
-
-# IDE files
+# Ignore files and folders created by the IDE (like IntelliJ)
 .idea/
 *.iml
 
-# Capacitor files
+# Ignore files and folders related to Capacitor's web dependencies
 node_modules/
+
+# This line was previously excluding the entire 'app' folder, which was a mistake!
+# It's now commented out or removed to ensure our app's source code is tracked.
+# Exclude the decoy app folder
